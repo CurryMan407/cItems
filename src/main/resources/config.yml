@@ -1,0 +1,80 @@
+crafted_items:
+  water_sword: false
+  fire_sword: false
+  earth_sword: false
+  dragon_sword: false
+  element_sword: false
+  devil_scythe: false
+  kings_crown: false
+  kings_sword: false
+
+recipes:
+  water_sword:
+    shape:
+      - " I "
+      - " I "
+      - " S "
+    ingredients:
+      I: WATER_BUCKET
+      S: STICK
+
+  fire_sword:
+    shape:
+      - " B "
+      - " B "
+      - " S "
+    ingredients:
+      B: BLAZE_ROD
+      S: STICK
+
+  earth_sword:
+    shape:
+      - " S "
+      - " S "
+      - " S "
+    ingredients:
+      S: COBBLESTONE
+
+  dragon_sword:
+    shape:
+      - " D "
+      - " D "
+      - " S "
+    ingredients:
+      D: DRAGON_BREATH
+      S: STICK
+
+  element_sword:
+    shape:
+      - " N "
+      - " N "
+      - " S "
+    ingredients:
+      N: NETHER_STAR
+      S: STICK
+
+  devil_scythe:
+    shape:
+      - " D "
+      - " B "
+      - " S "
+    ingredients:
+      D: NETHER_STAR
+      B: BLAZE_ROD
+      S: STICK
+
+  kings_crown:
+    shape:
+      - "GGG"
+      - "G G"
+      - "   "
+    ingredients:
+      G: GOLD_BLOCK
+  kings_sword:
+    shape:
+      - " S "
+      - " D "
+      - "SDS"
+    ingredients:
+      I: DIAMOND
+      S: NETHER_STAR

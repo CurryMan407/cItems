@@ -1,0 +1,15 @@
+name: CItems
+version: '${project.version}'
+main: org.curryman2.citems.CItems
+api-version: '1.17'
+commands:
+  givedragonsword:
+    description: Gives the player a Dragon Sword.
+  givefiresword:
+    description: Gives the player a Fire Sword.
+  givewatersword:
+    description: Gives the player a Water Sword.
+  giveearthsword:
+    description: Gives the player an Earth Sword.
+  giveelementsword:
+    description: Gives the player an Element Sword.
